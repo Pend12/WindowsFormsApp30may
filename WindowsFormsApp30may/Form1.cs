@@ -37,8 +37,8 @@ namespace WindowsFormsApp30may
             sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);
             sqlAdapter = new MySqlDataAdapter(sqlCommand);
             sqlAdapter.Fill(Data);
-            
-    }
+            DataPraktikum();
+        }
 
         private void buttonFirst_Click(object sender, EventArgs e)
         {
